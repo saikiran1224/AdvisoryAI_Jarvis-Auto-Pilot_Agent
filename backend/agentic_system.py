@@ -109,7 +109,8 @@ class AnalysisAgent:
         
         try:
             prompt = ChatPromptTemplate.from_messages([
-                ("system", """You are an expert financial advisor AI analyzing clients for proactive outreach opportunities.
+                ("user", """SYSTEM INSTRUCTIONS:
+You are an expert financial advisor AI analyzing clients for proactive outreach opportunities.
                 
 Your task is to identify the MOST COMPELLING opportunity for this client based on:
 1. Their current situation and recent activities
@@ -117,8 +118,10 @@ Your task is to identify the MOST COMPELLING opportunity for this client based o
 3. Industry trends and timing
 4. Potential financial impact
 
-{format_instructions}"""),
-                ("user", """Analyze this client:
+{format_instructions}
+
+ANALYSIS TASK:
+Analyze this client:
 
 CLIENT PROFILE:
 Name: {name}
@@ -334,7 +337,8 @@ Your Financial Advisor"""
         try:
             # Use a more directive prompt that's less likely to need JSON parsing
             prompt = ChatPromptTemplate.from_messages([
-                ("system", """You are an expert email writer for financial advisors. Write warm, personalized outreach emails.
+                ("user", """SYSTEM INSTRUCTIONS:
+You are an expert email writer for financial advisors. Write warm, personalized outreach emails.
 
 CRITICAL: You MUST respond with ONLY a valid JSON object. No other text before or after.
 
@@ -355,8 +359,10 @@ GUIDELINES FOR THE EMAIL:
 - Concise (150-200 words)
 - Compelling subject line
 
-Return ONLY the JSON object, nothing else."""),
-                ("user", """Write an email for this client:
+Return ONLY the JSON object, nothing else.
+
+EMAIL GENERATION TASK:
+Write an email for this client:
 
 CLIENT: {name}
 COMPANY: {company}
@@ -369,6 +375,10 @@ ESTIMATED IMPACT: {estimated_value}
 
 KEY INSIGHTS:
 {insights}
+
+SIGNATURE:
+Best Regards,
+Your Financial Advisor. 
 
 Return ONLY valid JSON with subject, body, tone, and personalization_elements fields.""")
             ])
@@ -436,7 +446,7 @@ class JarvisAgentSystem:
     def __init__(self):
         """Initialize the agent system."""
         self.llm = ChatGoogleGenerativeAI(
-            model="gemini-2.0-flash",
+            model="gemma-3-27b-it",
             google_api_key=os.getenv("GOOGLE_API_KEY"),
             temperature=0.7
         )
