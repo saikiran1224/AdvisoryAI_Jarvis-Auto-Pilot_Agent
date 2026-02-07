@@ -16,8 +16,8 @@ class RAGSystem:
     def __init__(self, persist_directory: str = None):
         """Initialize the RAG system with ChromaDB."""
         if persist_directory is None:
-            # Default to root/data/chroma_db regardless of CWD
-            persist_directory = str(Path(__file__).parent.parent / "data" / "chroma_db")
+            # Default to backend/data/chroma_db
+            persist_directory = str(Path(__file__).parent / "data" / "chroma_db")
             
         self.persist_directory = persist_directory
         Path(persist_directory).mkdir(parents=True, exist_ok=True)
@@ -214,8 +214,10 @@ def create_rag_system() -> RAGSystem:
     return RAGSystem()
 
 
-def ingest_documents(directory_path: str = "./data/client_documents") -> Dict[str, int]:
+def ingest_documents(directory_path: str = None) -> Dict[str, int]:
     """Ingest all documents from the specified directory."""
+    if directory_path is None:
+        directory_path = str(Path(__file__).parent / "data" / "client_documents")
     rag = create_rag_system()
     return rag.ingest_directory(directory_path)
 

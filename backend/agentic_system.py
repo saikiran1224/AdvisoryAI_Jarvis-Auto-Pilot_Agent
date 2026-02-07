@@ -450,7 +450,7 @@ class JarvisAgentSystem:
         # Build workflow graph
         self.workflow = self._build_workflow()
         
-        self.data_dir = Path(__file__).parent.parent / "data"
+        self.data_dir = Path(__file__).parent / "data"
     
     def _build_workflow(self) -> StateGraph:
         """Build the LangGraph workflow."""

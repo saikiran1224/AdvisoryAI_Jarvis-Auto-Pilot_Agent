@@ -22,7 +22,7 @@ app.add_middleware(
 )
 
 # Data file paths
-DATA_DIR = Path(__file__).parent.parent / "data"
+DATA_DIR = Path(__file__).parent / "data"
 EMAILS_FILE = DATA_DIR / "emails_sent.json"
 RESPONSES_FILE = DATA_DIR / "responses.json"
 CLIENT_CONTEXT_FILE = DATA_DIR / "client_context.json"

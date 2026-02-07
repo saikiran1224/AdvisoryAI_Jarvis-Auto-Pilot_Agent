@@ -7,8 +7,8 @@ import os
 from pathlib import Path
 
 # Ensure backend modules are importable
-current_dir = Path(__file__).resolve().parent.parent
-backend_dir = current_dir / "backend"
+current_dir = Path(__file__).resolve().parent
+backend_dir = current_dir
 sys.path.append(str(backend_dir))
 
 try:

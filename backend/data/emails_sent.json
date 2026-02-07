@@ -1,0 +1,162 @@
+[
+  {
+    "id": "email_20260207_214610_client_1772",
+    "client_id": "client_1772",
+    "client_name": "Emma Thompson",
+    "client_email": "emma.thompson@example.com",
+    "subject": "Quick check-in - Mother's progressing dementia requiring professional social worker involvement",
+    "body": "Hi Emma Thompson,\n\nI wanted to reach out regarding Mother's progressing dementia requiring professional social worker involvement. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "preview": "Hi Emma Thompson,\n\nI wanted to reach out regarding Mother's progressing dementia requiring professional social worker involvement. Proactive advisory ...",
+    "full_content": "Hi Emma Thompson,\n\nI wanted to reach out regarding Mother's progressing dementia requiring professional social worker involvement. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "sent_date": "2026-02-07T21:46:10.774746",
+    "status": "sent",
+    "opportunity_type": "Mother's progressing dementia requiring professional social worker involvement",
+    "priority_score": 9,
+    "tone": "professional",
+    "personalization_elements": [
+      "client name",
+      "opportunity type"
+    ],
+    "agent_workflow": "research \u2192 analysis \u2192 email_writer"
+  },
+  {
+    "id": "email_20260207_214610_client_6603",
+    "client_id": "client_6603",
+    "client_name": "Basil Fawlty",
+    "client_email": "basil.fawlty@example.com",
+    "subject": "Quick check-in - Sybil is extremely keen to exit, but Basil is resistant to market-linked price reductions",
+    "body": "Hi Basil Fawlty,\n\nI wanted to reach out regarding Sybil is extremely keen to exit, but Basil is resistant to market-linked price reductions. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "preview": "Hi Basil Fawlty,\n\nI wanted to reach out regarding Sybil is extremely keen to exit, but Basil is resistant to market-linked price reductions. Proactive...",
+    "full_content": "Hi Basil Fawlty,\n\nI wanted to reach out regarding Sybil is extremely keen to exit, but Basil is resistant to market-linked price reductions. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "sent_date": "2026-02-07T21:46:10.308469",
+    "status": "sent",
+    "opportunity_type": "Sybil is extremely keen to exit, but Basil is resistant to market-linked price reductions",
+    "priority_score": 8,
+    "tone": "professional",
+    "personalization_elements": [
+      "client name",
+      "opportunity type"
+    ],
+    "agent_workflow": "research \u2192 analysis \u2192 email_writer"
+  },
+  {
+    "id": "email_20260207_214611_client_7025",
+    "client_id": "client_7025",
+    "client_name": "Hyacinth Buckket",
+    "client_email": "hyacinth.buckket@example.com",
+    "subject": "Quick check-in - Needs comprehensive tax review",
+    "body": "Hi Hyacinth Buckket,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "preview": "Hi Hyacinth Buckket,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client pro...",
+    "full_content": "Hi Hyacinth Buckket,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "sent_date": "2026-02-07T21:46:11.186313",
+    "status": "sent",
+    "opportunity_type": "Needs comprehensive tax review",
+    "priority_score": 5,
+    "tone": "professional",
+    "personalization_elements": [
+      "client name",
+      "opportunity type"
+    ],
+    "agent_workflow": "research \u2192 analysis \u2192 email_writer"
+  },
+  {
+    "id": "email_20260207_214611_client_6090",
+    "client_id": "client_6090",
+    "client_name": "Gareth Cheeseman",
+    "client_email": "gareth.cheeseman@example.com",
+    "subject": "Quick check-in - Needs comprehensive tax review",
+    "body": "Hi Gareth Cheeseman,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "preview": "Hi Gareth Cheeseman,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client pro...",
+    "full_content": "Hi Gareth Cheeseman,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "sent_date": "2026-02-07T21:46:11.572379",
+    "status": "sent",
+    "opportunity_type": "Needs comprehensive tax review",
+    "priority_score": 5,
+    "tone": "professional",
+    "personalization_elements": [
+      "client name",
+      "opportunity type"
+    ],
+    "agent_workflow": "research \u2192 analysis \u2192 email_writer"
+  },
+  {
+    "id": "email_20260207_214611_client_3659",
+    "client_id": "client_3659",
+    "client_name": "Anthony Makepeace",
+    "client_email": "anthony.makepeace@example.com",
+    "subject": "Quick check-in - Needs comprehensive tax review",
+    "body": "Hi Anthony Makepeace,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "preview": "Hi Anthony Makepeace,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client pr...",
+    "full_content": "Hi Anthony Makepeace,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "sent_date": "2026-02-07T21:46:11.930853",
+    "status": "sent",
+    "opportunity_type": "Needs comprehensive tax review",
+    "priority_score": 5,
+    "tone": "professional",
+    "personalization_elements": [
+      "client name",
+      "opportunity type"
+    ],
+    "agent_workflow": "research \u2192 analysis \u2192 email_writer"
+  },
+  {
+    "id": "email_20260207_214612_client_1637",
+    "client_id": "client_1637",
+    "client_name": "Alan & Lynne Partridge",
+    "client_email": "alan.partridge@example.com",
+    "subject": "Quick check-in - Needs comprehensive tax review",
+    "body": "Hi Alan & Lynne Partridge,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "preview": "Hi Alan & Lynne Partridge,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on clie...",
+    "full_content": "Hi Alan & Lynne Partridge,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "sent_date": "2026-02-07T21:46:12.413813",
+    "status": "sent",
+    "opportunity_type": "Needs comprehensive tax review",
+    "priority_score": 5,
+    "tone": "professional",
+    "personalization_elements": [
+      "client name",
+      "opportunity type"
+    ],
+    "agent_workflow": "research \u2192 analysis \u2192 email_writer"
+  },
+  {
+    "id": "email_20260207_214612_client_9890",
+    "client_id": "client_9890",
+    "client_name": "David Chen",
+    "client_email": "david.chen@example.com",
+    "subject": "Quick check-in - Needs comprehensive tax review",
+    "body": "Hi David Chen,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "preview": "Hi David Chen,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\n...",
+    "full_content": "Hi David Chen,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "sent_date": "2026-02-07T21:46:12.922129",
+    "status": "sent",
+    "opportunity_type": "Needs comprehensive tax review",
+    "priority_score": 5,
+    "tone": "professional",
+    "personalization_elements": [
+      "client name",
+      "opportunity type"
+    ],
+    "agent_workflow": "research \u2192 analysis \u2192 email_writer"
+  },
+  {
+    "id": "email_20260207_214613_client_7101",
+    "client_id": "client_7101",
+    "client_name": "Delbert Wilkins",
+    "client_email": "delbert.wilkins@example.com",
+    "subject": "Quick check-in - Needs comprehensive tax review",
+    "body": "Hi Delbert Wilkins,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "preview": "Hi Delbert Wilkins,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client prof...",
+    "full_content": "Hi Delbert Wilkins,\n\nI wanted to reach out regarding Needs comprehensive tax review. Proactive advisory support\n\nRegular check-in based on client profile\n\nWould you have time for a brief call this week to discuss how we can help?\n\nBest regards,\nYour Financial Advisor",
+    "sent_date": "2026-02-07T21:46:13.318653",
+    "status": "sent",
+    "opportunity_type": "Needs comprehensive tax review",
+    "priority_score": 5,
+    "tone": "professional",
+    "personalization_elements": [
+      "client name",
+      "opportunity type"
+    ],
+    "agent_workflow": "research \u2192 analysis \u2192 email_writer"
+  }
+]
