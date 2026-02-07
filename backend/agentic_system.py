@@ -447,7 +447,7 @@ class JarvisAgentSystem:
         """Initialize the agent system."""
         self.llm = ChatGoogleGenerativeAI(
             model="gemma-3-27b-it",
-            google_api_key=os.getenv("GOOGLE_API_KEY"),
+            google_api_key=os.getenv("GEMINI_API_KEY"),
             temperature=0.7
         )
         self.rag = RAGSystem()
@@ -539,7 +539,7 @@ class JarvisAgentSystem:
         print("   Agents: Research → Analysis → Email Writer")
         
         # Process each client through agent workflow
-        all_results = []
+        all_results: List[Dict[str, Any]] = []
         for i, client in enumerate(clients, 1):
             print(f"\n[{i}/{len(clients)}] Client: {client['name']}")
             result = self.process_client(client)

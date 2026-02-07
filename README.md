@@ -29,11 +29,15 @@ Jarvis autonomously reaches out to clients on your behalf, then brings you back 
 
 ## 🏗️ Architecture
 
-```
 ├── backend/                 # FastAPI Server
 │   ├── app.py              # Main API endpoints
 │   ├── agentic_system.py   # LangGraph Multi-Agent System
-│   ├── rag_system.py         # Document ingestion & search
+│   ├── rag_system.py       # Document ingestion & search
+│   ├── data/               # Persistent data (SQLite, Chroma, JSON)
+│   │   ├── client_documents/ # DOCX files (your documents)
+│   │   ├── client_context.json # Client profiles
+│   │   ├── emails_sent.json    # Generated emails
+│   │   └── responses.json      # Mock responses
 │   └── requirements.txt
 │
 ├── frontend/               # React + Vite
@@ -42,12 +46,6 @@ Jarvis autonomously reaches out to clients on your behalf, then brings you back 
 │   │   ├── App.css        # Component styles
 │   │   └── index.css      # Design system
 │   └── package.json
-│
-└── data/
-    ├── client_documents/   # DOCX files (your documents)
-    ├── client_context.json # Client profiles
-    ├── emails_sent.json    # Generated emails
-    └── responses.json      # Mock responses
 ```
 
 ## 🚀 Quick Start
