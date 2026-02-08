@@ -7,7 +7,7 @@ import json
 import re
 from pathlib import Path
 from typing import List, Dict, Any, TypedDict, Annotated
-from datetime import datetime
+from datetime import datetime, timezone
 import operator
 
 from dotenv import load_dotenv
@@ -504,7 +504,7 @@ class JarvisAgentSystem:
             return None
         
         # Create email record
-        email_id = f"email_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{client['client_id']}"
+        email_id = f"email_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}_{client['client_id']}"
         
         return {
             "id": email_id,
@@ -515,7 +515,7 @@ class JarvisAgentSystem:
             "body": email.body,
             "preview": email.body[:150] + "...",
             "full_content": email.body,
-            "sent_date": datetime.now().isoformat(),
+            "sent_date": datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
             "status": "sent",
             "opportunity_type": opportunity.opportunity_type,
             "priority_score": opportunity.priority_score,
