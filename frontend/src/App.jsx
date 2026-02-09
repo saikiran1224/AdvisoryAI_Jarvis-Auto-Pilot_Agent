@@ -16,6 +16,7 @@ import {
   RefreshCw
 } from 'lucide-react';
 import Swal from 'sweetalert2';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
@@ -68,7 +69,7 @@ function App() {
       const response = await fetch(`${API_URL}/api/run-analysis`, {
         method: 'POST'
       });
-      const data = await response.json();
+      await response.json();
 
       Swal.fire({
         title: 'Analysis Started!',
@@ -306,6 +307,7 @@ function App() {
           onClose={() => setSelectedLead(null)}
         />
       )}
+      <Analytics />
     </div>
   );
 }
